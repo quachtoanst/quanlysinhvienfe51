@@ -14,4 +14,7 @@ var SinhVien = function (masv,tensv,email,diemtoan,diemly,diemhoa,diemrenluyen,l
     this.xeploaiABC = function(){
         return "Giỏi";
     }
+    this.xeploai=function(){
+        return 'yeu'
+    }
 }

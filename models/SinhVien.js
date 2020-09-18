@@ -10,6 +10,9 @@ var SinhVien = function (masv,tensv,email,diemtoan,diemly,diemhoa,diemrenluyen,l
     this.tinhDiemTrungBinh = function () {
         var dtb = (Number(this.diemToan) + Number(this.diemLy) + Number(this.diemHoa)) /3;
         return dtb;
+    };
+    this.xeploaiABC = function(){
+        return "Giỏi";
     }
     this.xeploai=function(){
         //Toan Quach

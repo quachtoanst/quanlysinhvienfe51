@@ -15,6 +15,8 @@ var SinhVien = function (masv,tensv,email,diemtoan,diemly,diemhoa,diemrenluyen,l
         return "Giỏi";
     }
     this.xeploai=function(){
-        return 'yeu'
+        //Toan Quach
+        var loai = 'gioi';
+        return loai;
     }
 }
